@@ -869,6 +869,7 @@ class PyShell(OutputWindow):
         #
         text = self.text
         text.configure(wrap="char")
+        text.bind("<<clear-screen>>", self.clear_screen)
         text.bind("<<newline-and-indent>>", self.enter_callback)
         text.bind("<<plain-newline-and-indent>>", self.linefeed_callback)
         text.bind("<<interrupt-execution>>", self.cancel_callback)
@@ -921,6 +922,12 @@ class PyShell(OutputWindow):
 
     def get_warning_stream(self):
         return warning_stream
+
+    def clear_screen(self, event=None):
+        window_height = idleConf.GetOption(
+            'main', 'EditorWindow', 'height', type='int')
+        self.console.write('\n' * window_height)
+        self.runit()
 
     def toggle_debugger(self, event=None):
         if self.executing:
