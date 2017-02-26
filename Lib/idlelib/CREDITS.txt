@@ -23,10 +23,10 @@ Neal Norwitz (code check and clean-up), Ronald Oussoren (Mac integration),
 Noam Raphael (Code Context, Call Tips, many other patches), and Chui Tey (RPC
 integration, debugger integration and persistent breakpoints).
 
-Scott David Daniels, Tal Einat, Hernan Foffani, Christos Georgiou,
-Jim Jewett, Martin v. Löwis, Jason Orendorff, Guilherme Polo, Josh Robb,
-Nigel Rowe, Bruce Sherwood, Jeff Shute, and Weeble have submitted useful
-patches.  Thanks, guys!
+Scott David Daniels, Tal Einat, Hernan Foffani, Christos Georgiou, Jim Jewett,
+Steven Kneiser, Martin v. Löwis, Jason Orendorff, Guilherme Polo, Josh Robb,
+Nigel Rowe, Bruce Sherwood, Jeff Shute, and Weeble have submitted
+useful patches.  Thanks, guys!
 
 For additional details refer to NEWS.txt and Changelog.
 
