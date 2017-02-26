@@ -57,6 +57,7 @@ toggle-tabs=<Alt-Key-t> <Meta-Key-t> <Alt-Key-T> <Meta-Key-T>
 change-indentwidth=<Alt-Key-u> <Meta-Key-u> <Alt-Key-U> <Meta-Key-U>
 del-word-left=<Control-Key-BackSpace>
 del-word-right=<Control-Key-Delete>
+clear-screen=<Control-Key-b>
 
 [IDLE Classic Unix]
 copy=<Alt-Key-w> <Meta-Key-w>
@@ -108,6 +109,7 @@ toggle-tabs=<Alt-Key-t>
 change-indentwidth=<Alt-Key-u>
 del-word-left=<Alt-Key-BackSpace>
 del-word-right=<Alt-Key-d>
+clear-screen=<Control-Key-b>
 
 [IDLE Modern Unix]
 copy = <Control-Shift-Key-C> <Control-Key-Insert>
@@ -159,6 +161,7 @@ toggle-tabs = <Control-Key-T>
 change-indentwidth = <Alt-Key-u>
 del-word-left = <Control-Key-BackSpace>
 del-word-right = <Control-Key-Delete>
+clear-screen=<Control-Key-b>
 
 [IDLE Classic Mac]
 copy=<Command-Key-c>
@@ -210,6 +213,7 @@ toggle-tabs=<Control-Key-t>
 change-indentwidth=<Control-Key-u>
 del-word-left=<Control-Key-BackSpace>
 del-word-right=<Control-Key-Delete>
+clear-screen=<Control-Key-b>
 
 [IDLE Classic OSX]
 toggle-tabs = <Control-Key-t>
@@ -262,4 +266,5 @@ python-context-help = <Shift-Key-F1>
 save-copy-of-window-as-file = <Option-Command-Key-s>
 open-window-from-file = <Command-Key-o>
 python-docs = <Key-F1>
+clear-screen=<Control-Key-b>
 

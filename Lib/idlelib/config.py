@@ -615,6 +615,7 @@ class IdleConf:
             '<<paste>>': ['<Control-v>', '<Control-V>'],
             '<<beginning-of-line>>': ['<Control-a>', '<Home>'],
             '<<center-insert>>': ['<Control-l>'],
+            '<<clear-screen>>': ['<Control-Key-B>'],
             '<<close-all-windows>>': ['<Control-q>'],
             '<<close-window>>': ['<Alt-F4>'],
             '<<do-nothing>>': ['<Control-x>'],
